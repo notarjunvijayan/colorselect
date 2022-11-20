@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,700&family=Montserrat:wght@500&display=swap');
 body{
 	width:100vw;
 	height:100vh;
 	margin:0;
 	display: block;
-	background-color: #007ebc;
-	color:#f9f871;
+	background-color: #5CDB95;
+	color:#05386B;
+	font-family: 'Lora', serif;
+	font-size: 3vw;
 }
 
