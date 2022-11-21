@@ -3,6 +3,7 @@ let red = 71;
 let green = 0;
 let blue = 56; 
 
+
 let hex = '';
 
 function chex(num)
@@ -95,5 +96,39 @@ $: rootElement && rootElement.style.setProperty('--container-background', `rgb($
         background-color: #9B414A;
         color:#56db95;
         cursor: pointer;
+    }
+    .slide{
+        -webkit-appearance: none;
+        background: transparent;
+        cursor:pointer;
+        width:15vw;
+        margin:10vh;
+    }
+    .red{
+        background:red;
+        height:0.5vh;
+        border-radius: 5%/100%;
+    }
+    .red::-webkit-slider-thumb,.red::-moz-range-thumb{
+        background-color: red;
+        border: red;
+    }
+    .green{
+        background:green;
+        height:0.5vh;
+        border-radius: 5%/100%;
+    }
+    .green::-webkit-slider-thumb,.green::-moz-range-thumb{
+        background-color: green;
+        border: green;
+    }
+    .blue{
+        background:blue;
+        height:0.5vh;
+        border-radius: 5%/100%;
+    }
+    .blue::-webkit-slider-thumb,.blue::-moz-range-thumb{
+        background-color: blue;
+        border: blue;
     }
 </style>
