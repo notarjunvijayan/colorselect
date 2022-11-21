@@ -50,6 +50,11 @@ $: rootElement && rootElement.style.setProperty('--container-background', `rgb($
     h3{
         font-size: 1vw;
         padding:0.5vh;
+        margin-top: 5vh;
+        margin-bottom: 0vh;
+    }
+    .hex h3{
+        margin-top:0%;
     }
     :root {
     --container-background: inherit;
