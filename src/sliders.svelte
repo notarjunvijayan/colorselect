@@ -7,12 +7,9 @@ let hex = '';
 
 function chex(num)
 {
-  if (num < 0)
-  {
-    num = 0xFFFFFFFF + num + 1;
-  }
+  var res =  num.toString(16).toUpperCase();
 
-  return num.toString(16).toUpperCase();
+  return res.length == 1? '0' + res: res
 }
 
 function convert(r,g,b){
