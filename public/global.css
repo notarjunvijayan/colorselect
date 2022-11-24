@@ -4,8 +4,9 @@ body{
 	height:100vh;
 	margin:0;
 	display: block;
-	background-color: #5CDB95;
-	color:#05386B;
+	background-color: #d1adcc;
+	color:#5f2c3e;
 	font-family: 'Lora', serif;
+	overflow: hidden;
 }
 

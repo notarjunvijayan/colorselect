@@ -1,7 +1,7 @@
 <script>
-let red = 71;
-let green = 0;
-let blue = 56; 
+let red = 209;
+let green = 173;
+let blue = 204; 
 
 
 let hex = '';
@@ -47,6 +47,9 @@ $: rootElement && rootElement.style.setProperty('--container-background', `rgb($
 
 
 <style>
+    input{
+        z-index: 5;
+    }
     h3{
         font-size: 1vw;
         padding:0.5vh;
@@ -60,13 +63,14 @@ $: rootElement && rootElement.style.setProperty('--container-background', `rgb($
     --container-background: inherit;
     }
     .info{
-        height:13vh;
+        height:10vh;
     }
     .slider-box{
-        height:73vh;
+        height:60vh;
         width:100vw;
         background-color: var(--container-background);
         margin-top:3vh;  
+        z-index:5;
     }
     .sliders{
         display:flex;
@@ -91,15 +95,15 @@ $: rootElement && rootElement.style.setProperty('--container-background', `rgb($
         width:7vw;
         height:4vh;
         border-radius: 20%/50%;
-        border:1px solid #05386b;
-        background-color: #56db95;
-        color: #05386b;
+        border:1px solid #5f2c3e;
+        background-color: #d1adcc;
+        color: #5f2c3e;
         font-family: monospace;
         font-size: 1vw;
     }
     .button:hover{
-        background-color: #9B414A;
-        color:#56db95;
+        background-color: #5f2c3e;
+        color:#d1adcc;
         cursor: pointer;
     }
     .slide{
