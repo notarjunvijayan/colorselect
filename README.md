@@ -5,6 +5,6 @@ Link: http://colorselect.vercel.app/
 
 ![Screenshot](public/scrnsht.png)
 
-Currently under Development.
+Currently under Development.(Not responsive)
 
 Technology used: SvelteJs
